@@ -2,3 +2,11 @@ openondesktop
 =============
 
 OpenOnDesktop is dropbox menu for Dolhpin (KDE4 file manager). It creates a group in the context menu, which opens a file to the specified desktop when clicked
+
+Usage: intasll_desktop.sh [-h | --help] [ -i PATHTOKWINRC] [ -o PATHTODESKTOP]
+
+Additional parametrs:
+  -h  --help       - show this help and exit
+  -i               - path to configuration file (kwinrc). Default is '$HOME/.kde4/share/config/kwinrc'
+  -o               - path to output file (*.desktop). Default is '$HOME/.kde4/share/kde4/services/ServiceMenus/12-open_on.desktop'
+
